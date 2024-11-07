@@ -12,7 +12,7 @@ if ( !defined( 'ABSPATH' ) ) {
 ?>
 <div class="wrap">
 
-	<h2><?php esc_html_e( 'WP Team Showcase and Slider with ', 'wp-team-showcase-and-slider' ); ?><span class="wpos-epb"><?php esc_html_e( 'Essential Plugin Bundle', 'wp-team-showcase-and-slider' ); ?></h2><br />	
+	<h2 style="text-align: center;"><?php esc_html_e( 'WP Team Showcase and Slider with ', 'wp-team-showcase-and-slider' ); ?><span class="wpos-epb"><?php esc_html_e( 'Essential Plugin Bundle', 'wp-team-showcase-and-slider' ); ?></h2><br />	
 
 	<style>
 		.wpos-plugin-pricing-table thead th h2{font-weight: 400; font-size: 2.4em; line-height:normal; margin:0px; color: #2ECC71;}
@@ -63,6 +63,10 @@ if ( !defined( 'ABSPATH' ) ) {
 		.wpos-sidebar .wpos-epb-wrap .button-orange{font-weight: 600;color: #fff; text-align:center;text-decoration: none;display:block;padding: 1em 2em;background: #ff2700;border-radius: .2em;}
 	</style>
 	
+	<div class="wp-tsas-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WP_TSAS_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WP_TSAS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<div id="poststuff">
 		<div id="post-body" class="metabox-holder">
 			<div id="post-body-content">
@@ -80,7 +84,7 @@ if ( !defined( 'ABSPATH' ) ) {
 							<th>
 								<h2 class="wpos-epb">Premium</h2>
 								<p style="margin-bottom: 10px;">Gain access to <strong>WP Team Showcase</strong> included in <br /><strong class="wpos-epb">Essential Plugin Bundle</strong></p>
-								<a href="<?php echo esc_url(WP_TSAS_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro For 5 Days Free</a>
+								<a href="<?php echo esc_url(WP_TSAS_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro with Back Friday Deals</a>
 							</th>
 						</tr>
 					</thead>
@@ -231,7 +235,7 @@ if ( !defined( 'ABSPATH' ) ) {
 							<th></th>
 							<td></td>
 							<td><p>Gain access to <strong>WP Team Showcase and Slider</strong> included in <br /><strong>Essential Plugin Bundle</strong></p>
-							<a href="<?php echo esc_url(WP_TSAS_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro For 5 Days Free</a>
+							<a href="<?php echo esc_url(WP_TSAS_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro with Back Friday Deals</a>
 						</tr>
 					</tfoot>
 				</table>

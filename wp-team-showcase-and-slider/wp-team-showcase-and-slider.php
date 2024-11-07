@@ -6,7 +6,7 @@
  * Domain Path: /languages/
  * Description: Easy to add and display your employees, team members in Grid view, Slider view and in widget. Also work with Gutenberg shortcode block.
  * Author: WP OnlineSupport, Essential Plugin
- * Version: 2.8.1
+ * Version: 2.8.2
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-team-showcase-slider/
  *
  * @package WordPress
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WP_TSAS_VERSION' ) ) {
-	define( 'WP_TSAS_VERSION', '2.8.1' ); // Version of plugin
+	define( 'WP_TSAS_VERSION', '2.8.2' ); // Version of plugin
 }
 
 if( ! defined( 'WP_TSAS_NAME' ) ) {
@@ -47,11 +47,11 @@ if( ! defined( 'WP_TSAS_URL' ) ) {
 
 
 if( ! defined( 'WP_TSAS_PLUGIN_LINK_UPGRADE' ) ) {
-	define('WP_TSAS_PLUGIN_LINK_UPGRADE', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Team-Showcase&utm_campaign=Upgrade-PRO'); // Plugin link
+	define('WP_TSAS_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Team-Showcase&utm_campaign=Upgrade-PRO'); // Plugin link
 }
 
 if( ! defined( 'WP_TSAS_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WP_TSAS_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Team-Showcase&utm_campaign=Features-PRO'); // Plugin link
+	define('WP_TSAS_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Team-Showcase&utm_campaign=Features-PRO'); // Plugin link
 }
 
 

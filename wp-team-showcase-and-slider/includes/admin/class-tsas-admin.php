@@ -58,7 +58,7 @@ class Tsas_Admin {
 		add_submenu_page( 'edit.php?post_type='.WP_TSAS_POST_TYPE, __('How it works, our plugins and offers', 'wp-team-showcase-and-slider'), __('How It Works', 'wp-team-showcase-and-slider'), 'manage_options', 'tsas-designs', array($this, 'tsas_designs_page') );
 
 		// Register plugin premium page
-		add_submenu_page( 'edit.php?post_type='.WP_TSAS_POST_TYPE, __('Upgrade To PRO - Team Showcase and Slider', 'wp-team-showcase-and-slider'), '<span class="wpos-upgrade-pro" style="color:#ff2700">' . __('Upgrade To PRO – Try Pro For 5 Days Free', 'wp-team-showcase-and-slider') . '</span>', 'manage_options', 'tsas-upgrade-pro', array($this, 'wp_tsas_redirect_page') );
+		add_submenu_page( 'edit.php?post_type='.WP_TSAS_POST_TYPE, __('Upgrade To PRO - Team Showcase and Slider', 'wp-team-showcase-and-slider'), '<span class="wpos-upgrade-pro" style="color:#ff2700">' . __('Upgrade To PRO – Early Back Friday Deals', 'wp-team-showcase-and-slider') . '</span>', 'manage_options', 'tsas-upgrade-pro', array($this, 'wp_tsas_redirect_page') );
 	}
 
 	/**
@@ -336,7 +336,9 @@ class Tsas_Admin {
 				$html .= '<tr class="tsas-pro-feature"><th scope="row">' . esc_attr($v['name']) . '<span class="tsas-pro-tag">PRO</span></th><td><input name="' . esc_attr( $k ) . '" type="text" class="regular-text" value="" disabled="" />' . "<br/>";
 				//$html .= '<span class="description">' . wp_kses_post($v['desc']) . '</span>'.' <strong>'. sprintf( __( 'Utilize this <a href="%s" target="_blank">Premium Features (With Risk-Free 30 days money back guarantee)</a> to get best of this plugin with Annual or Lifetime bundle deal.', 'wp-team-showcase-and-slider'), WP_TSAS_PLUGIN_LINK_UNLOCK).'</strong>';
 
-				$html .= '<span class="description">' . wp_kses_post($v['desc']) . '</span>'.' <strong>'. sprintf( __( 'Try This <a href="%s" target="_blank">features in Essential Bundle Free For 5 Days.</a>', 'wp-team-showcase-and-slider'), WP_TSAS_PLUGIN_LINK_UNLOCK).'</strong>';
+				//$html .= '<span class="description">' . wp_kses_post($v['desc']) . '</span>'.' <strong>'. sprintf( __( 'Try This <a href="%s" target="_blank">features in Essential Bundle Free For 5 Days.</a>', 'wp-team-showcase-and-slider'), WP_TSAS_PLUGIN_LINK_UNLOCK).'</strong>';
+
+				$html .= '<span class="description">' . wp_kses_post($v['desc']) . '</span>'.' <strong>'. sprintf( __( 'Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'wp-team-showcase-and-slider'), WP_TSAS_PLUGIN_LINK_UNLOCK).'</strong>';
 
 				$html .= '</td><tr/>' . "\n";
 			}

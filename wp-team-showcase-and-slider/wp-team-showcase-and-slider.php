@@ -6,7 +6,7 @@
  * Domain Path: /languages/
  * Description: Easy to add and display your employees, team members in Grid view, Slider view and in widget. Also work with Gutenberg shortcode block.
  * Author: WP OnlineSupport, Essential Plugin
- * Version: 2.8.2
+ * Version: 2.8.3
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-team-showcase-slider/
  *
  * @package WordPress
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WP_TSAS_VERSION' ) ) {
-	define( 'WP_TSAS_VERSION', '2.8.2' ); // Version of plugin
+	define( 'WP_TSAS_VERSION', '2.8.3' ); // Version of plugin
 }
 
 if( ! defined( 'WP_TSAS_NAME' ) ) {

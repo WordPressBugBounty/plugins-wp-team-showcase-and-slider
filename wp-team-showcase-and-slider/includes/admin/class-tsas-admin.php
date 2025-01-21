@@ -58,7 +58,7 @@ class Tsas_Admin {
 		add_submenu_page( 'edit.php?post_type='.WP_TSAS_POST_TYPE, __('How it works, our plugins and offers', 'wp-team-showcase-and-slider'), __('How It Works', 'wp-team-showcase-and-slider'), 'manage_options', 'tsas-designs', array($this, 'tsas_designs_page') );
 
 		// Register plugin premium page
-		add_submenu_page( 'edit.php?post_type='.WP_TSAS_POST_TYPE, __('Upgrade To PRO - Team Showcase and Slider', 'wp-team-showcase-and-slider'), '<span class="wpos-upgrade-pro" style="color:#ff2700">' . __('Upgrade To PRO – Early Back Friday Deals', 'wp-team-showcase-and-slider') . '</span>', 'manage_options', 'tsas-upgrade-pro', array($this, 'wp_tsas_redirect_page') );
+		add_submenu_page( 'edit.php?post_type='.WP_TSAS_POST_TYPE, __('Upgrade To PRO - Team Showcase and Slider', 'wp-team-showcase-and-slider'), '<span class="wpos-upgrade-pro" style="color:#2ECC71">' . __('Upgrade To PRO', 'wp-team-showcase-and-slider') . '</span>', 'manage_options', 'tsas-upgrade-pro', array($this, 'wp_tsas_redirect_page') );
 	}
 
 	/**
@@ -338,7 +338,9 @@ class Tsas_Admin {
 
 				//$html .= '<span class="description">' . wp_kses_post($v['desc']) . '</span>'.' <strong>'. sprintf( __( 'Try This <a href="%s" target="_blank">features in Essential Bundle Free For 5 Days.</a>', 'wp-team-showcase-and-slider'), WP_TSAS_PLUGIN_LINK_UNLOCK).'</strong>';
 
-				$html .= '<span class="description">' . wp_kses_post($v['desc']) . '</span>'.' <strong>'. sprintf( __( 'Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'wp-team-showcase-and-slider'), WP_TSAS_PLUGIN_LINK_UNLOCK).'</strong>';
+				//$html .= '<span class="description">' . wp_kses_post($v['desc']) . '</span>'.' <strong>'. sprintf( __( 'Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'wp-team-showcase-and-slider'), WP_TSAS_PLUGIN_LINK_UNLOCK).'</strong>';
+
+				$html .= '<span class="description">' . wp_kses_post($v['desc']) . '</span>'.' <strong style="color:#2ECC71; font-weight: 700;">'. sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'wp-team-showcase-and-slider'), WP_TSAS_PLUGIN_LINK_UNLOCK).'</strong>';
 
 				$html .= '</td><tr/>' . "\n";
 			}

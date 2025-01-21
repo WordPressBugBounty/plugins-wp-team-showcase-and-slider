@@ -153,7 +153,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								<li>100% Multilanguage.</li>
 							</ul>
 							<div class="upgrade-to-pro">Gain access to <strong>WP Team Showcase and Slider</strong> included in <br /><strong>Essential Plugin Bundle</div>
-							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WP_TSAS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'wp-team-showcase-and-slider'); ?></a>
+							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WP_TSAS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Upgrade To PRO', 'wp-team-showcase-and-slider'); ?></a>
 						</div><!-- .inside -->
 					</div><!-- #general -->
 				</div><!-- .meta-box-sortables -->

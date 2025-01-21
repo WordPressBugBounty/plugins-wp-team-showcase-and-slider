@@ -18,9 +18,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</strong>
 </div> -->
 
-<div class="wp-tsas-black-friday-banner-wrp">
-	<a href="<?php echo esc_url( WP_TSAS_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WP_TSAS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-</div>
+<!-- <div class="wp-tsas-black-friday-banner-wrp">
+	<a href="<?php // echo esc_url( WP_TSAS_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WP_TSAS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+</div> -->
+
+<strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'wp-team-showcase-and-slider'), WP_TSAS_PLUGIN_LINK_UNLOCK); ?></strong>
 
 <table class="form-table tsas-metabox-table">
 	<tbody>

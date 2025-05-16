@@ -1,9 +1,9 @@
 ﻿=== Team Slider and Team Grid Showcase plus Team Carousel ===
-Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
+Contributors: essentialplugin
 Tags: responsive team showcase slider, team showcase rotator, responsive team showcase carousel, team showcase members profile and skills, team showcase social with slider,
 Requires at least: 4.0
-Tested up to: 6.7.1
-Stable tag: 2.8.3
+Tested up to: 6.8.1
+Stable tag: 2.8.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -145,7 +145,7 @@ You can use same parameter with slider shortcode.
 2. Activate the "wp-team-showcase-and-slider" list plugin through the 'Plugins' menu in WordPress.
 3. Add a new page and add this short code 
 <code>[wp-team]</code>
-4. If you want to display  using slider then use this short code 
+4. If you want to display  using slider then use this short code
 <code>[wp-team-slider]</code>
 5. Here is Template code 
 <code><?php echo do_shortcode('[wp-team]'); ?> </code>
@@ -153,7 +153,7 @@ You can use same parameter with slider shortcode.
 <code><?php echo do_shortcode('[wp-team-slider]'); ?> </code>
 
 = How to install : =
-[youtube https://www.youtube.com/watch?v=gUIp0rCNsHg]  
+[youtube https://www.youtube.com/watch?v=gUIp0rCNsHg]
 
 == Screenshots ==
 
@@ -165,7 +165,10 @@ You can use same parameter with slider shortcode.
 6. Add new member
 7. Also work with Gutenberg shortcode block.
 
-== Changelog ==  
+== Changelog ==
+
+= 2.8.4 (16, May 2025) =
+* [*] Check compatibility with WordPress version 6.8.1
 
 = 2.8.3 (21, January 2025) =
 * [*] Check compatibility to WordPress version 6.7.1

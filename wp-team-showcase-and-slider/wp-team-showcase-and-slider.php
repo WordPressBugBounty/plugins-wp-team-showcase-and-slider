@@ -5,12 +5,12 @@
  * Text Domain: wp-team-showcase-and-slider
  * Domain Path: /languages/
  * Description: Easy to add and display your employees, team members in Grid view, Slider view and in widget. Also work with Gutenberg shortcode block.
- * Author: WP OnlineSupport, Essential Plugin
- * Version: 2.8.3
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-team-showcase-slider/
+ * Author: Essential Plugin
+ * Version: 2.8.4
+ * Author URI: https://www.essentialplugin.com
  *
- * @package WordPress
- * @author WP OnlineSupport
+ * @package WP Team Showcase and Slider
+ * @author Essential Plugin
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WP_TSAS_VERSION' ) ) {
-	define( 'WP_TSAS_VERSION', '2.8.3' ); // Version of plugin
+	define( 'WP_TSAS_VERSION', '2.8.4' ); // Version of plugin
 }
 
 if( ! defined( 'WP_TSAS_NAME' ) ) {
@@ -37,15 +37,6 @@ if( ! defined( 'WP_TSAS_URL' ) ) {
 	define( 'WP_TSAS_URL', plugin_dir_url( __FILE__ ) ); // Plugin url
 }
 
-// if( ! defined( 'WP_TSAS_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define('WP_TSAS_PLUGIN_LINK_UNLOCK','https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=Team-Showcase&utm_campaign=Features-PRO'); // Plugin link
-// }
-
-// if( ! defined( 'WP_TSAS_PLUGIN_LINK_UPGRADE' ) ) {
-// 	define('WP_TSAS_PLUGIN_LINK_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Team-Showcase&utm_campaign=Upgrade-PRO'); // Plugin Check link
-// }
-
-
 if( ! defined( 'WP_TSAS_PLUGIN_LINK_UPGRADE' ) ) {
 	define('WP_TSAS_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Team-Showcase&utm_campaign=Upgrade-PRO'); // Plugin link
 }
@@ -53,7 +44,6 @@ if( ! defined( 'WP_TSAS_PLUGIN_LINK_UPGRADE' ) ) {
 if( ! defined( 'WP_TSAS_PLUGIN_LINK_UNLOCK' ) ) {
 	define('WP_TSAS_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Team-Showcase&utm_campaign=Features-PRO'); // Plugin link
 }
-
 
 if( ! defined( 'WP_TSAS_SITE_LINK' ) ) {
 	define('WP_TSAS_SITE_LINK','https://www.essentialplugin.com'); // Plugin link
